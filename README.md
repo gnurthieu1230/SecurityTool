@@ -1,0 +1,1 @@
+Các bạn dùng tool này nhớ đặt api key virus total vào các file: config.json, .env hoặc các bạn có thể nhập api key trong tool (security_tool_v4.py)
