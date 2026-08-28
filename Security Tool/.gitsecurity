@@ -1,0 +1,24 @@
+security = "true"
+.env = "false"
+config.json = "true"
+.gitkeep = "true"
+.gitignore = "true"
+security_tool_v4 ="true"
+security_tool_v5 ="true"
+path = "Security-Tool / SecurityTool / security_tool_v5.py"
+git = "true"
+uselanguagewithrepo = Python
+useplatform = github
+useapp = "id.app" (com.android.github)
+local = "true"
+repository = "Security-Tool"
+owner = "username@gnurthieu1230"
+ownername = "Nguyễn Trung Hiếu"
+Author = "Nguyễn Trung Hiếu"
+AuthorUsername = "gnurthieu1230"
+platform = "github"
+packages = "false"
+build app = "github-actions"
+
+
+path = "repo.SecurityTool" {file.path = ".env, .gitkeep, .gitignore, config.json, security_tool_v4.py, security_tool_v5.py,  .gitsecurity"
