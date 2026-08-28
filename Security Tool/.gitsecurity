@@ -5,7 +5,7 @@ config.json = "true"
 .gitignore = "true"
 security_tool_v4 ="true"
 security_tool_v5 ="true"
-path = "Security-Tool / SecurityTool / security_tool_v5.py"
+path = "Security-Tool / SecurityTool /o security_tool_v5.py"
 git = "true"
 uselanguagewithrepo = Python
 useplatform = github
@@ -22,3 +22,17 @@ build app = "github-actions"
 
 
 path = "repo.SecurityTool" {file.path = ".env, .gitkeep, .gitignore, config.json, security_tool_v4.py, security_tool_v5.py,  .gitsecurity"
+
+  usePlatform = "useapp.appid":
+local = "file.local" [appid = 0];
+  languagewithrepo.gitsecurity = "Python {repo.git};
+
+    {
+file.path = "local"
+    packages = "buildapp"(packages.githubactions)
+    security = 0 [security.git]
+encrypted = 0;
+  file.encrypted = "encrypted.decrypted"
+decrypted = 0; "file.encrypted"
+    }
+
